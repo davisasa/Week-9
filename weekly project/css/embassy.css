@@ -1,0 +1,293 @@
+.header-blue{
+    display: flex;
+    padding-left: 150px;
+    padding-right: 150px;
+    padding-top: 50px;
+    padding-bottom: 30px;
+}
+
+.header-blue-content{
+    width: 100%;
+    display: flex;
+}
+
+.logo{
+    display: flex;
+}
+
+.logo img{
+    height: 120px;
+}
+
+.logo h2{
+    padding-top: 30px;
+}
+
+.header-icons{
+    width: 500px;
+    display: flex;
+    justify-content: end;
+    padding-top: 30px;
+    margin-left:460px;
+}
+
+.icons{
+    height: 40px;
+    color: #fff;
+    padding-right: 10px;
+}
+
+#search{
+    height: 36px;
+    padding-left: 10px;
+}
+
+.header-hr{
+    border: 3px orange solid;
+}
+
+.Kamala-pics img{
+    height: 270px;
+}
+
+.picture-block{
+    display: flex;
+    justify-content: space-between;
+    margin-left: -30px;
+    margin-right: 3px;
+    object-fit: contain;
+}
+
+.carousel-size{
+    width: 100%;
+    margin-left: 30px;
+}
+
+.carou-width{
+    width: 1423px;
+    margin-left: -15px;
+    margin-top: 10px;
+    text-align: left !important;
+}
+
+.carou-width h5{
+    text-align: left;
+    font-size: 35px;
+    font-weight:550;
+}
+
+.carou-width p{
+    text-align: left;
+    font-size: 20px;
+}
+
+.navs button{
+    background-color: transparent;
+    border: none;
+    font-size: 20px;
+    padding-right: 20px;
+    padding-left: 20px;
+    height: 50px !important;
+}
+
+.nav-header{
+    position: sticky;
+    top: 0;
+    background: #fff;
+    z-index: 1;
+}
+
+.navs button:hover{
+    background-color: rgb(224, 221, 221);
+    color: brown;
+}
+
+.pic-block-3{
+    object-fit: contain;
+}
+
+
+
+.menu-buttons-sizing{
+    display: flex;
+    justify-content: space-between;
+    width: 1423px;
+    margin-left: 30px;
+    padding-top: 3px;
+    padding-bottom: 10px;
+    
+    margin-bottom: 40px;
+
+}
+
+.btn-size{
+    width: 280px;
+    height: 100px;
+    background-color: rgb(244, 243, 243);
+    color: blue;
+    border: none;
+    font-size: 15px;
+}
+
+.btn-size-1{
+    width: 280px;
+    height: 100px;
+    background-color: rgb(244, 243, 243);
+    color: blue;
+    border: none;
+    margin-top: 8px;
+    font-size: 15px;
+}
+
+.info-boxes{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 70px;
+}
+
+.box-1{
+    background-color: rgb(244, 243, 243);
+    height: 200px;
+    width: 450px;
+    padding-top: 30px;
+}
+
+.box-1 img{
+    height: 70px;
+    padding-bottom: 10px;
+}
+
+.box-1 a{
+    text-decoration: none;
+    color: black;
+}
+
+.box-1:hover{
+    background-color: rgb(224, 224, 224);
+}
+
+.news-cards{
+    display: flex;
+    justify-content: space-between;
+}
+
+.news-cards-2{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+.card-body h5{
+    font-size: 26px;
+    font-weight: 550;
+    color: rgb(1, 1, 53);
+}
+
+.card-body p{
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.article-head{
+    color: rgb(1, 1, 53);
+}
+.article-head:hover{
+    color: #0693e3;
+    text-decoration: none;
+    transition: all .5s ease;
+}
+
+.date{
+    font-size: 18px;
+    opacity: 50%;
+}
+
+.article-link a{
+    font-size: 18px;
+    color: rgb(1, 1, 53);
+    border-bottom:1px currentColor dotted;
+    transition: all .5s ease;
+}
+
+.article-link a:hover{
+    text-decoration: none;
+    color: skyblue;
+    border-bottom: 1px currentColor solid;
+}
+
+.show-more{
+    margin-top: 70px;
+    margin-bottom: 70px;
+    display: flex;
+    justify-content: center;
+    background-color: transparent;
+}
+
+.show-more button{
+    opacity: 0.4;
+    background-color: transparent;
+    height: 40px;
+    width: 150px;
+}
+
+.footer-hr{
+    border: 7px rgb(202, 201, 201) solid;
+    margin-bottom: 0px;
+}
+
+.footer{
+    background-color: #003875;
+    color: #fff;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.footer-2{
+    background-color: #002042;
+    color: #fff;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.footer-2 img{
+    height: 30px;
+}
+
+.footer-col-1 h3{
+    font-size: 20px;
+}
+
+.footer-col-1 hr{
+    border: 1px solid #fff;
+}
+.footer-col-2 hr{
+    border: 1px solid #fff;
+}
+
+.footer-col-2 h3{
+    font-size: 20px;
+}
+
+.footer-col-1 li{
+    list-style: none;
+    margin-left: -40px;
+    color: #fff;
+    font-size: 19px;
+    padding-bottom: 10px;
+}
+
+.footer-col-1 li a{
+    color: #fff;
+}
+
+.footer-col-2 li{
+    list-style: none;
+    margin-left: -40px;
+    color: #fff;
+    font-size: 19px;
+    padding-bottom: 10px;
+}
+
+.footer-col-2 li a{
+    color: #fff;
+}
